@@ -1,0 +1,19 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo
+    ports:
+      - 37017:27017
+  co-developer-be:
+    image: co-developer-be
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    #    environment:
+    #    labels:
+    ports:
+      - 3001:3001
+    expose:
+      - 3001
+    volumes:
+      - ./src:/app/src
