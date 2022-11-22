@@ -83,10 +83,5 @@
   },
   "engines": {
     "node": ">=14.0.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run lint"
-    }
   }
 }
