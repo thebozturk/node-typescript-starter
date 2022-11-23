@@ -1,7 +1,6 @@
 {
-  "name": "co-developer-be",
+  "name": "node-typescript-starter",
   "version": "0.1.0",
-  "author": "Team Co-Developer",
   "scripts": {
     "build-ts": "tsc",
     "build": "npm run build-ts",

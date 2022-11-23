@@ -5,7 +5,7 @@ services:
     ports:
       - 37017:27017
   co-developer-be:
-    image: co-developer-be
+    image: node-typescript-starter
     build:
       context: .
       dockerfile: dev.Dockerfile
